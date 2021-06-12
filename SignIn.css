@@ -27,7 +27,9 @@
     border-radius: 5px;
     border: 2px solid #ca5119;
     }
-    
+    h1{
+        color: white;
+    }
     .app-title {
     text-align: center;
     color: #777;
@@ -80,7 +82,7 @@
     
     .login-link {
       font-size: 12px;
-      color: #444;
+      color: rgb(255, 255, 255);
       display: block;
       margin-top: 12px;
     }
@@ -90,13 +92,14 @@
     }
     nav{
         height: auto;
-        background: rgb(134, 62, 2);
+        background: rgba(134, 61, 2, 0.774);
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: fixed;
         width: auto;
         top: 0;
+        border-bottom: 1px solid rgb(165, 75, 1);
     }
     .Links{
         padding-right: 40px;
