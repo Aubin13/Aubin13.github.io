@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<body>
+    <div class="HeaderDiv">
+        <nav>
+            <img src="smartlogo2.png" class="LogoImg">
+            <div class = "mainmenu">
+                <a href="index.html" class="Links">Home</a>
+                <a href="Gallery.html" class="Links">Gallery</a>
+                <a href="SignIn.html" class="Links">Sign In</a>
+            </div>
+        </nav>
+    </div>
+<h3 >Contact Form</h3>
+
+<div class="container">
+    <form action="/action_page.php">
+    <label for="fname" >First Name: * </label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required="required">
+
+    <label for="lname">Last Name: *</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required="required">
+
+    <label for="email" style="font-size: 15px; ">Email: *</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" tabindex="2" required="required" class="mail">
+         
+
+    <label for="subject">Subject: *</label>
+    <input type="text" id="subject" name="subject" placeholder="Your subject.." required="required">
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px; font-family: 'Raleway', Arial, sans-serif;"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+</body>
+</html>
