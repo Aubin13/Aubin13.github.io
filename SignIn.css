@@ -8,12 +8,13 @@
     body {
     font-family: Arial;
     margin: 0%;
+        background-image: url("UCL2.jpg")'
     background-size: cover;
     background-repeat: no-repeat;
+        
     }
     html{
         margin: 0;
-        background-image: url("YoYo3.jpg")
     }
     .login {
     margin: 20px auto;
